@@ -14,8 +14,7 @@
     <form>
         <fieldset>
             <legend> Survey Questions: </legend>
-        <div>
-            <legend> From the list, select the bars/restaurants that you've been to.</legend>
+            <p> From the list, select the bars/restaurants that you've been to.<p>
             <label for="Airliner">
             <input type="checkbox" id="Airliner" name="previous" value ="Airliner"> Airliner
             </label>    
@@ -57,11 +56,11 @@
             <input type="checkbox" id="Vine" name="previous" value="Vine"> Vine
             </label>
         
-        <div>
+            <div>
 
-        <label for="location">Best Location:
+            <label for="location">Best Location:
             <select name="location" id="location">
-                <option value=" "> </option>
+                <option value="other">Other</option>
                 <option value="Airliner">Airliner</option>
                 <option value="Bo's">Bo James</option>
                 <option value="Brother's">Brother's</option>
@@ -74,14 +73,74 @@
                 <option value="Spoco">Spoco</option>
                 <option value="Vine">Vine</option>
             </select>
-        </label>
-        </div>
-        <p> </p>
+            </label>
+            </div>
+            <p> </p>
 
-        <div>
+            <div>
             <label for="deals">Best Deals:
-                <select name="deals" id="deals">
-                    <option value=" "> </option>
+            <select name="deals" id="deals">
+                <option value="other">Other</option>
+                <option value="Airliner">Airliner</option>
+                <option value="Bo's">Bo James</option>
+                <option value="Brother's">Brother's</option>
+                <option value="DC's">DC's</option>
+                <option value="Deadwood">Deadwood</option>
+                <option value="Joe's">Joe's</option>
+                <option value="Micky's">Micky's</option>
+                <option value="Quinton's">Quinton's</option>
+                <option value="Short's">Short's</option>
+                <option value="Spoco">Spoco</option>
+                <option value="Vine">Vine</option>
+            </select>
+            </label>
+            </div>
+            <p> </p>
+
+            <div>
+            <label for="atmosphere">Best Atmosphere:
+            <select name="atmosphere" id="atmosphere">
+                <option value="other">Other</option>
+                <option value="Airliner">Airliner</option>
+                <option value="Bo's">Bo James</option>
+                <option value="Brother's">Brother's</option>
+                <option value="DC's">DC's</option>
+                <option value="Deadwood">Deadwood</option>
+                <option value="Joe's">Joe's</option>
+                <option value="Micky's">Micky's</option>
+                <option value="Quinton's">Quinton's</option>
+                <option value="Short's">Short's</option>
+                <option value="Spoco">Spoco</option>
+                <option value="Vine">Vine</option>
+            </select>
+            </label>
+            </div>
+            <p> </p>
+
+            <div>
+            <label for="customer_service">Best Customer Service:
+            <select name="customer_service" id="customer_service">
+                <option value="other">Other</option>
+                <option value="Airliner">Airliner</option>
+                <option value="Bo's">Bo James</option>
+                <option value="Brother's">Brother's</option>
+                <option value="DC's">DC's</option>
+                <option value="Deadwood">Deadwood</option>
+                <option value="Joe's">Joe's</option>
+                <option value="Micky's">Micky's</option>
+                <option value="Quinton's">Quinton's</option>
+                <option value="Short's">Short's</option>
+                <option value="Spoco">Spoco</option>
+                <option value="Vine">Vine</option>
+            </select>
+            </label>
+            </div>
+            <p> </p>
+
+            <div>
+            <label for="Drinks/Beverages">Best Drinks/Beverages:
+                <select name="Drinks/Beverages" id="Drinks/Beverages">
+                    <option value="other">Other</option>
                     <option value="Airliner">Airliner</option>
                     <option value="Bo's">Bo James</option>
                     <option value="Brother's">Brother's</option>
@@ -97,144 +156,84 @@
             </label>
             </div>
             <p> </p>
-
             <div>
-                <label for="atmosphere">Best Atmosphere:
-                    <select name="atmosphere" id="atmosphere">
-                        <option value=" "> </option>
-                        <option value="Airliner">Airliner</option>
-                        <option value="Bo's">Bo James</option>
-                        <option value="Brother's">Brother's</option>
-                        <option value="DC's">DC's</option>
-                        <option value="Deadwood">Deadwood</option>
-                        <option value="Joe's">Joe's</option>
-                        <option value="Micky's">Micky's</option>
-                        <option value="Quinton's">Quinton's</option>
-                        <option value="Short's">Short's</option>
-                        <option value="Spoco">Spoco</option>
-                        <option value="Vine">Vine</option>
-                    </select>
-                </label>
-                </div>
+            <label for="Appetizers">Best Appetizers:
+                <select name="Appetizers" id="Appetizers">
+                    <option value="other">Other</option>
+                    <option value="Airliner">Airliner</option>
+                    <option value="Bo's">Bo James</option>
+                    <option value="Brother's">Brother's</option>
+                    <option value="DC's">DC's</option>
+                    <option value="Deadwood">Deadwood</option>
+                    <option value="Joe's">Joe's</option>
+                    <option value="Micky's">Micky's</option>
+                    <option value="Quinton's">Quinton's</option>
+                    <option value="Short's">Short's</option>
+                    <option value="Spoco">Spoco</option>
+                    <option value="Vine">Vine</option>
+                </select>
+            </label>
+            </div>
+            <p> </p>
+            <div>
+            <label for="Burgers/Sandwiches">Burgers/Sandwiches:
+                <select name="Burgers/Sandwiches" id="Burgers/Sandwiches">
+                    <option value="other">Other</option>
+                    <option value="Airliner">Airliner</option>
+                    <option value="Bo's">Bo James</option>
+                    <option value="Brother's">Brother's</option>
+                    <option value="DC's">DC's</option>
+                    <option value="Deadwood">Deadwood</option>
+                    <option value="Joe's">Joe's</option>
+                    <option value="Micky's">Micky's</option>
+                    <option value="Quinton's">Quinton's</option>
+                    <option value="Short's">Short's</option>
+                    <option value="Spoco">Spoco</option>
+                    <option value="Vine">Vine</option>
+                </select>
+            </label>
+            </div>
+            <p> </p>
+            <div>
+            <label for="Pizza">Best Pizza:
+                <select name="Pizza" id="Pizza">
+                    <option value="other">Other</option>
+                    <option value="Airliner">Airliner</option>
+                    <option value="Bo's">Bo James</option>
+                    <option value="Brother's">Brother's</option>
+                    <option value="DC's">DC's</option>
+                    <option value="Deadwood">Deadwood</option>
+                    <option value="Joe's">Joe's</option>
+                    <option value="Micky's">Micky's</option>
+                    <option value="Quinton's">Quinton's</option>
+                    <option value="Short's">Short's</option>
+                    <option value="Spoco">Spoco</option>
+                    <option value="Vine">Vine</option>
+                </select>
+            </label>
+            </div>
                 <p> </p>
-
-                <div>
-                    <label for="customer service">Best Customer Service:
-                        <select name="customer service" id="customer service">
-                            <option value=" "> </option>
-                            <option value="Airliner">Airliner</option>
-                            <option value="Bo's">Bo James</option>
-                            <option value="Brother's">Brother's</option>
-                            <option value="DC's">DC's</option>
-                            <option value="Deadwood">Deadwood</option>
-                            <option value="Joe's">Joe's</option>
-                            <option value="Micky's">Micky's</option>
-                            <option value="Quinton's">Quinton's</option>
-                            <option value="Short's">Short's</option>
-                            <option value="Spoco">Spoco</option>
-                            <option value="Vine">Vine</option>
-                        </select>
-                    </label>
-                    </div>
-                    <p> </p>
-
-                    <div>
-                        <label for="Drinks/Beverages">Best Drinks/Beverages:
-                            <select name="Drinks/Beverages" id="Drinks/Beverages">
-                                <option value=" "> </option>
-                                <option value="Airliner">Airliner</option>
-                                <option value="Bo's">Bo James</option>
-                                <option value="Brother's">Brother's</option>
-                                <option value="DC's">DC's</option>
-                                <option value="Deadwood">Deadwood</option>
-                                <option value="Joe's">Joe's</option>
-                                <option value="Micky's">Micky's</option>
-                                <option value="Quinton's">Quinton's</option>
-                                <option value="Short's">Short's</option>
-                                <option value="Spoco">Spoco</option>
-                                <option value="Vine">Vine</option>
-                            </select>
-                        </label>
-                        </div>
-                        <p> </p>
-                        <div>
-                            <label for="Appetizers">Best Appetizers:
-                                <select name="Appetizers" id="Appetizers">
-                                    <option value=" "> </option>
-                                    <option value="Airliner">Airliner</option>
-                                    <option value="Bo's">Bo James</option>
-                                    <option value="Brother's">Brother's</option>
-                                    <option value="DC's">DC's</option>
-                                    <option value="Deadwood">Deadwood</option>
-                                    <option value="Joe's">Joe's</option>
-                                    <option value="Micky's">Micky's</option>
-                                    <option value="Quinton's">Quinton's</option>
-                                    <option value="Short's">Short's</option>
-                                    <option value="Spoco">Spoco</option>
-                                    <option value="Vine">Vine</option>
-                                </select>
-                            </label>
-                        </div>
-                        <p> </p>
-                        <div>
-                            <label for="Burgers/Sandwiches">Burgers/Sandwiches:
-                                <select name="Burgers/Sandwiches" id="Burgers/Sandwiches">
-                                    <option value=" "> </option>
-                                    <option value="Airliner">Airliner</option>
-                                    <option value="Bo's">Bo James</option>
-                                    <option value="Brother's">Brother's</option>
-                                    <option value="DC's">DC's</option>
-                                    <option value="Deadwood">Deadwood</option>
-                                    <option value="Joe's">Joe's</option>
-                                    <option value="Micky's">Micky's</option>
-                                    <option value="Quinton's">Quinton's</option>
-                                    <option value="Short's">Short's</option>
-                                    <option value="Spoco">Spoco</option>
-                                    <option value="Vine">Vine</option>
-                                </select>
-                            </label>
-                            </div>
-                        <p> </p>
-                        <div>
-                            <label for="Pizza">Best Pizza:
-                                <select name="Pizza" id="Pizza">
-                                    <option value=" "> </option>
-                                    <option value="Airliner">Airliner</option>
-                                    <option value="Bo's">Bo James</option>
-                                    <option value="Brother's">Brother's</option>
-                                    <option value="DC's">DC's</option>
-                                    <option value="Deadwood">Deadwood</option>
-                                    <option value="Joe's">Joe's</option>
-                                    <option value="Micky's">Micky's</option>
-                                    <option value="Quinton's">Quinton's</option>
-                                    <option value="Short's">Short's</option>
-                                    <option value="Spoco">Spoco</option>
-                                    <option value="Vine">Vine</option>
-                                </select>
-                            </label>
-                            </div>
-                            <p> </p>
-                        <div>
-                            <label for="OVERALL">Best OVERALL:
-                                <select name="OVERALL" id="OVERALL">
-                                    <option value=" "> </option>
-                                    <option value="Airliner">Airliner</option>
-                                    <option value="Bo's">Bo James</option>
-                                    <option value="Brother's">Brother's</option>
-                                    <option value="DC's">DC's</option>
-                                    <option value="Deadwood">Deadwood</option>
-                                    <option value="Joe's">Joe's</option>
-                                    <option value="Micky's">Micky's</option>
-                                    <option value="Quinton's">Quinton's</option>
-                                    <option value="Short's">Short's</option>
-                                    <option value="Spoco">Spoco</option>
-                                    <option value="Vine">Vine</option>
-                                </select>
-                            </label>
-                            </div>
-                        <p> </p>
-                        </fieldset>
-                        </form>
+            <div>
+            <label for="OVERALL">Best OVERALL:
+                <select name="OVERALL" id="OVERALL">
+                    <option value="other">Other</option>
+                    <option value="Airliner">Airliner</option>
+                    <option value="Bo's">Bo James</option>
+                    <option value="Brother's">Brother's</option>
+                    <option value="DC's">DC's</option>
+                    <option value="Deadwood">Deadwood</option>
+                    <option value="Joe's">Joe's</option>
+                    <option value="Micky's">Micky's</option>
+                    <option value="Quinton's">Quinton's</option>
+                    <option value="Short's">Short's</option>
+                    <option value="Spoco">Spoco</option>
+                    <option value="Vine">Vine</option>
+                </select>
+            </label>
+            </div>
+            <p> </p>
+        </fieldset>
+    </form>
 <p>
     <button onclick="window.location.href='./thank-you.html';">
     Submit:
