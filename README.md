@@ -1,7 +1,7 @@
 # BAIS-week7-hw
 
-# Desciption of Project
-# In this assignment, we built a survey to learn about students' lifestyle on campus. My survey focused on students' favorite bar/restaurant on campus.
+#Desciption of Project
+#In this assignment, we built a survey to learn about students' lifestyle on campus. My survey focused on students' favorite bar/restaurant on campus.
 
 #Best Practices
 #One good thing I did on this assignment was the background and font colors. I chose gold and black because it's a University of Iowa survey. The colors 
